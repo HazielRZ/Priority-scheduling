@@ -1,10 +1,10 @@
 
 const procesos = [
-    { id: 'P1', rafaga: 7, prioridad: 3, color: '#e74c3c' },
-    { id: 'P2', rafaga: 4, prioridad: 1, color: '#2ecc71' },
-    { id: 'P3', rafaga: 9, prioridad: 4, color: '#f1c40f' },
-    { id: 'P4', rafaga: 5, prioridad: 5, color: '#9b59b6' },
-    { id: 'P5', rafaga: 3, prioridad: 2, color: '#3498db' }
+    { id: 'P1', rafaga: 2, prioridad: 4, color: '#f23847' },
+    { id: 'P2', rafaga: 3, prioridad: 1, color: '#8c3e53' },
+    { id: 'P3', rafaga: 1, prioridad: 2, color: '#f2b6cc' },
+    { id: 'P4', rafaga: 3, prioridad: 3, color: '#f27272' },
+    { id: 'P5', rafaga: 3, prioridad: 5, color: '#efcfcf' }
 ];
 
 // Referencias al DOM

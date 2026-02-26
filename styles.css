@@ -1,6 +1,6 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
+    font-family: 'Monserrat', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #070707;
     color: #333;
     padding: 2rem;
 }
@@ -8,20 +8,21 @@ body {
 .container {
     max-width: 950px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #333333;
     padding: 2.5rem;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    color: #7a7a7a;
 }
 
-h1, h2, h3 { color: #1a2a3a; border-bottom: 2px solid #f1f1f1; padding-bottom: 0.8rem; }
+h1, h2, h3 { color: #af257e; border-bottom: 2px solid #f26bce; padding-bottom: 0.8rem; }
 
 /* Estilos de Tabla */
 table { width: 100%; border-collapse: collapse; margin: 2rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-th, td { border: 1px solid #e1e8ed; padding: 14px; text-align: center; }
-th { background-color: #2c3e50; color: #ffffff; font-weight: 600; }
-.resultado-header { background-color: #34495e; }
-tbody tr:nth-child(even) { background-color: #f8f9fa; }
+th, td { border: 1px solid #f26bce; padding: 14px; text-align: center; }
+th { background-color: #af257e; color: #ffffff; font-weight: 600; }
+.resultado-header { background-color: #f26bce; }
+tbody tr:nth-child(even) { background-color: #f8e4f3; }
 
 /* Estilos del Diagrama de Gantt y Animación */
 .gantt-container {
@@ -62,7 +63,7 @@ tbody tr:nth-child(even) { background-color: #f8f9fa; }
     bottom: -30px;
     font-size: 0.95rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: #f26bce;
     transform: translateX(-50%);
 }
 
@@ -71,5 +72,5 @@ tbody tr:nth-child(even) { background-color: #f8f9fa; }
     background-color: #e8f4fd;
     padding: 1.5rem;
     border-radius: 8px;
-    border-left: 5px solid #3498db;
+    border-left: 5px solid #af257e;
 }
