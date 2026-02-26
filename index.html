@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador Animado: Priority Scheduling</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Simulador de Planificación: Priority Scheduling</h1>
+  <p>
+    El sistema utiliza un algoritmo de prioridad no apropiativo. Los procesos llegan en $t=0$.
+    A continuación se muestra la tabla de procesos y el cálculo progresivo de sus métricas.
+  </p>
+
+  <table id="processTable">
+    <thead>
+    <tr>
+      <th>ID Proceso</th>
+      <th>Ráfaga (BT)</th>
+      <th>Prioridad</th>
+      <th class="resultado-header">T. Retorno ($T_r$)</th>
+      <th class="resultado-header">T. Espera ($T_w$)</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <div class="gantt-wrapper">
+    <h2>Ejecución en Tiempo Real (Diagrama de Gantt)</h2>
+    <div class="gantt-container" id="ganttChart">
+      <span class="gantt-time-marker" style="left: 0;">0</span>
+    </div>
+  </div>
+
+  <div class="metrics-summary" id="finalMetrics" style="display: none;">
+    <h3>Resultado Promedio del Lote</h3>
+    <p>Tiempo de Retorno Promedio: <strong id="avgTr"></strong> unidades.</p>
+    <p>Tiempo de Espera Promedio: <strong id="avgTw"></strong> unidades.</p>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
