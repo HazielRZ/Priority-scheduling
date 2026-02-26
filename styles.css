@@ -74,3 +74,8 @@ tbody tr:nth-child(even) { background-color: #eaa4db; }
     border-radius: 8px;
     border-left: 5px solid #af257e;
 }
+
+footer{
+    margin: 2rem 0;
+    text-align: center;
+}
