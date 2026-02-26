@@ -12,17 +12,17 @@ body {
     padding: 2.5rem;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    color: #7a7a7a;
+    color: #f2f2f2;
 }
 
-h1, h2, h3 { color: #af257e; border-bottom: 2px solid #f26bce; padding-bottom: 0.8rem; }
+h1, h2, h3 { color: #ffffff; border-bottom: 2px solid #f26bce; padding-bottom: 0.8rem; }
 
 /* Estilos de Tabla */
 table { width: 100%; border-collapse: collapse; margin: 2rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
 th, td { border: 1px solid #f26bce; padding: 14px; text-align: center; }
 th { background-color: #af257e; color: #ffffff; font-weight: 600; }
 .resultado-header { background-color: #f26bce; }
-tbody tr:nth-child(even) { background-color: #f8e4f3; }
+tbody tr:nth-child(even) { background-color: #eaa4db; }
 
 /* Estilos del Diagrama de Gantt y Animación */
 .gantt-container {
@@ -30,10 +30,10 @@ tbody tr:nth-child(even) { background-color: #f8e4f3; }
     width: 100%;
     height: 70px;
     border-radius: 6px;
-    background-color: #e9ecef;
+    background-color: #f2f2f2;
     position: relative;
     overflow: visible;
-    border: 3px solid #bdc3c7;
+    border: 3px solid #f26bce;
 }
 
 .gantt-block {
@@ -41,7 +41,7 @@ tbody tr:nth-child(even) { background-color: #f8e4f3; }
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #f2f2f2;
     font-weight: bold;
     font-size: 1.2rem;
     position: relative;
@@ -63,13 +63,13 @@ tbody tr:nth-child(even) { background-color: #f8e4f3; }
     bottom: -30px;
     font-size: 0.95rem;
     font-weight: 700;
-    color: #f26bce;
+    color: #af257e;
     transform: translateX(-50%);
 }
 
 .metrics-summary {
     margin-top: 2rem;
-    background-color: #e8f4fd;
+    background-color: #eaa4db;
     padding: 1.5rem;
     border-radius: 8px;
     border-left: 5px solid #af257e;
