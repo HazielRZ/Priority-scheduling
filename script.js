@@ -89,7 +89,7 @@ async function ejecutarSimulacionAnimada() {
         marcador.innerText = tiempoActual;
         contenedorGantt.appendChild(marcador);
 
-        // Actualizar la tabla HTML con los resultados
+        // Actualizar la tabla
         const filaProceso = document.getElementById(`row-${p.id}`);
         filaProceso.querySelector('.cell-tr').innerText = tiempoRetorno;
         filaProceso.querySelector('.cell-tw').innerText = tiempoEspera;
